@@ -15,13 +15,22 @@ But you will know if you read just a bit more
 
 EVERY command in stacky NEEDS to be on a new line
 
-0-26	will print out the ASSCII character (1 will output a, 26 will output z. 0 output space)
-)	will do \n
-(	will do a space
-+	will skip the next line
-- will goto the line before
-=	will reset the program
-.	will change the next line to the first line
-/	will make the next line the one before it / the one before it
-*	will make the next line the one before it * the one before it
-^	will make the next line the second next line
+Numbers from 0 to 26 will print the ASCII character: 1 = 'a', 26 = 'z'.
+
+) outputs a new line (newline).
+
+( outputs a space.
+
++ skips the next line.
+
+- goes back to the previous line (jumps one line down).
+
+= resets the program to the first line.
+
+. changes the next line to be the same as the first line.
+
+/ changes the next line to the division of the previous line by itself.
+
+* changes the next line to the multiplication of the previous line by itself.
+
+^ changes the line two lines ahead to the value of the next line.
