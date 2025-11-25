@@ -15,22 +15,22 @@ But you will know if you read just a bit more
 
 EVERY command in stacky NEEDS to be on a new line
 
-Numbers from 0 to 26 will print the ASCII character: 1 = 'a', 26 = 'z'.
+0-26: Prints the ASCII character corresponding to the number where 1 = 'a', 26 = 'z'.
 
-) outputs a new line (newline).
+) : Prints a newline (starts a new line).
 
-( outputs a space.
+( : Prints a space character.
 
-+ skips the next line.
++ : Skips the execution of the next line.
 
-- goes back to the previous line (jumps one line down).
+- : Jumps back to the previous line.
 
-= resets the program to the first line.
+= : Resets the program to the first line (start over).
 
-. changes the next line to be the same as the first line.
+. : Replaces the next line with the first line of the program.
 
-/ changes the next line to the division of the previous line by itself.
+/ : Changes the next line to be the division of the previous line by itself (result is 1).
 
-* changes the next line to the multiplication of the previous line by itself.
+* : Changes the next line to be the multiplication of the previous line by itself (squares the number).
 
-^ changes the line two lines ahead to the value of the next line.
+^ : Sets the line two lines after this to be the same as the next line.
