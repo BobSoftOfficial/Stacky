@@ -1,4 +1,5 @@
-# Stacky
+# Stackylang
+
 Stacky is an esoteric proggraming language
 This language is written in lua, so to use this language first install lua.
 If you have done that install the stacky.lua file and run it
