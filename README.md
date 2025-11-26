@@ -58,8 +58,8 @@ So when you start jumping like in this code:
 
 
 
-
-It will jump to here if you enter an 1
+'()'
+It will jump to '()' if you enter an 1
 So use empty lines or none command lines as a boost!
 you could also see that input is not an intruction but whatever you put in it will change the word input with
 So this makes it just a bit eazier to read
