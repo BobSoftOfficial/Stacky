@@ -9,7 +9,9 @@ end
 
 i = 1
 
-num = 0 
+num = 0
+
+var = ""
 
 while i <= #lines do
 
@@ -40,6 +42,16 @@ while i <= #lines do
 
 	elseif lines[i] == "(" then
 		io.write(" ")
+
+	elseif lines[i] == "!" then
+		if lines[i-1] == lines[i+1] then
+			i = lines[i+2]
+		end
+
+	elseif lines[i] == "," then
+		io.write("")
+		var = io.read()
+		lines[i+1] = var
 
 
 	else
