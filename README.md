@@ -38,3 +38,5 @@ EVERY command in stacky NEEDS to be on a new line
 '!' : Jumps to the value of 2 lines ahead of it if the line behind it is the same is the line in front of it
 
 ',' : Makes an input, and whatever you input will be the value of the next line
+
+'~' : Brakes the program
