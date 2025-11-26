@@ -53,6 +53,9 @@ while i <= #lines do
 		var = io.read()
 		lines[i+1] = var
 
+	elseif lines[i] == "~" then
+		break
+
 
 	else
         num = tonumber(lines[i])
