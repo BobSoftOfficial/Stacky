@@ -41,3 +41,20 @@ EVERY command in stacky NEEDS to be on a new line
 ',' : Makes an input, and whatever you input will be the value of the next line
 
 '~' : Brakes the program
+
+## warning!
+The program counter STILL goes up even if there is not a valid command/empty line on that line
+So when you start jumping like in this code:
+,
+input
+!
+1
+10
+
+
+
+
+It will jump to here if you enter an 1
+So use empty lines or none command lines as a boost!
+you could also see that input is not an intruction but whatever you put in it will change the word input with
+So this makes it just a bit eazier to read
