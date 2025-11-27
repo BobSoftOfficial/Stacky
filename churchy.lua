@@ -1,4 +1,4 @@
-io.write("Enter name of .stacky file: ")
+io.write("Enter name of .churchy file: ")
 line_file = io.read()
 
 lines = {}
