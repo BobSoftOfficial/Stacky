@@ -1,11 +1,11 @@
-# Stackylang
+# Churchy
 
-Stackylang is an esoteric proggraming language
+Churchy is an esoteric proggraming language
 This language is written in lua, so to use this language first install lua.
 If you have done that install the stacky.lua file and run it
-Now you will see you have to enter the .stacky file.
-So make a file in the directory you are in (for exapmle: main.stacky)
-Then enter the name of the file (so main.stacky in this example)
+Now you will see you have to enter the .churchy file.
+So make a file in the directory you are in (for exapmle: main.churchy)
+Then enter the name of the file (so main.churchy in this example)
 And run the code!
 Of course now you dont know hot to use this language...
 But you will know if you read just a bit more
@@ -14,7 +14,7 @@ But you will know if you read just a bit more
 
 ## tutoriol
 
-EVERY command in stacky NEEDS to be on a new line
+EVERY command in churchy NEEDS to be on a new line
 
 0-26: Prints the ASCII character corresponding to the number where 1 = 'a', 26 = 'z'.
 
@@ -63,4 +63,4 @@ It will jump to '()' if you enter an 1
 So use empty lines or none command lines as a boost!
 you could also see that input is not an intruction but whatever you put in it will change the word input with
 So this makes it just a bit eazier to read
-(the '' is not actual part of the instruction, it is just there bacause else github will make everything weird. also the emtpy lines between commands... just ingnore them. it is the same as the other isue else github will make it look weird. want an working program? just donwload the .stacky file above!)
+(the '' is not actual part of the instruction, it is just there bacause else github will make everything weird. also the emtpy lines between commands... just ingnore them. it is the same as the other isue else github will make it look weird. want an working program? just donwload the .churchy file above!)
