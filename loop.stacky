@@ -1,0 +1,10 @@
+better infinity loop
+
+instead of using = to restart use
+
+1
+!
+1
+0
+
+because than you have way more control over the loop (you can still use = but yeah...)
